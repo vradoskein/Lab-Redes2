@@ -19,7 +19,7 @@ public class Peer {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //fazer um login aqui...
         //Pensei em fazer uma classe user q guarda os dados do usuario e 
-        //a porta pra manter.
+        //a porta pra manter. hhh
         System.out.println("> Username and Port#");
         String[] setupValues = bufferedReader.readLine().split(" ");//Entrada de dados, mudar pra user and pass
         ServerThread serverThread = new ServerThread(setupValues[1]);// inicia o breguinithgs com a porta, trocar pelo user.port
