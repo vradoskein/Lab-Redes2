@@ -51,9 +51,11 @@ public class Peer {
                 }
             }
         }
+        //chama a logica de comunicacao
         communicate(bufferedReader, username, serverThread);
     }
     
+    //logica de comunicacao apos conectado
      public void communicate(BufferedReader bufferedReader, String username, ServerThread serverThread){
          try{
              System.out.println("> write message, (e to exit, c to change)");
